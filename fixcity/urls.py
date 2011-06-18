@@ -66,10 +66,10 @@ urlpatterns = patterns(
     # Static media for dev work.  For deployment, these should be served
     # by a front-end server eg. apache!
     # see http://docs.djangoproject.com/en/dev/howto/static-files/
-    (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
-      {'document_root': settings.STATIC_DOC_ROOT, 'show_indexes': True}),
-    (r'^uploads/(?P<path>.*)$', 'django.views.static.serve',
-      {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
+#    (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
+#      {'document_root': settings.STATIC_DOC_ROOT, 'show_indexes': True}),
+#    (r'^uploads/(?P<path>.*)$', 'django.views.static.serve',
+#      {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
